@@ -1,0 +1,36 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.loadRecipe = exports.state = void 0;
+
+var _helpers = require("./helpers.js");
+
+const state = {
+  recipe: {}
+};
+exports.state = state;
+
+const loadRecipe = async function (id) {
+  try {
+    const res = await fetch(`${_helpers.API_URL_GET}${id}`);
+    const data = await res.json();
+    if (!res.ok) throw new Error(`${data.error} ${res.status}`);
+    const {
+      recipe
+    } = data;
+    state.recipe = {
+      id: recipe.recipe_id,
+      title: recipe.title,
+      publisher: recipe.publisher,
+      imageUrl: recipe.image_url,
+      sourceUrl: recipe.source_url,
+      ingredients: recipe.ingredients
+    };
+  } catch (err) {
+    alert(err);
+  }
+};
+
+exports.loadRecipe = loadRecipe;

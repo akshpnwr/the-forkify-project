@@ -1,0 +1,86 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _icons = _interopRequireDefault(require("url:../../img/icons.svg"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classPrivateFieldGet(receiver, privateMap) { var descriptor = privateMap.get(receiver); if (!descriptor) { throw new TypeError("attempted to get private field on non-instance"); } if (descriptor.get) { return descriptor.get.call(receiver); } return descriptor.value; }
+
+function _classPrivateMethodGet(receiver, privateSet, fn) { if (!privateSet.has(receiver)) { throw new TypeError("attempted to get private field on non-instance"); } return fn; }
+
+function _classPrivateFieldSet(receiver, privateMap, value) { var descriptor = privateMap.get(receiver); if (!descriptor) { throw new TypeError("attempted to set private field on non-instance"); } if (descriptor.set) { descriptor.set.call(receiver, value); } else { if (!descriptor.writable) { throw new TypeError("attempted to set read only private field"); } descriptor.value = value; } return value; }
+
+var _parentEl = new WeakMap();
+
+var _data = new WeakMap();
+
+var _clear = new WeakSet();
+
+var _generateMarkup = new WeakSet();
+
+class ResultsView {
+  constructor() {
+    _generateMarkup.add(this);
+
+    _clear.add(this);
+
+    _parentEl.set(this, {
+      writable: true,
+      value: document.querySelector('.results')
+    });
+
+    _data.set(this, {
+      writable: true,
+      value: void 0
+    });
+  }
+
+  render(data) {
+    console.log(data);
+
+    _classPrivateFieldSet(this, _data, data);
+
+    _classPrivateMethodGet(this, _clear, _clear2).call(this);
+
+    _classPrivateFieldGet(this, _data).forEach(el => {
+      const markup = _classPrivateMethodGet(this, _generateMarkup, _generateMarkup2).call(this);
+
+      _classPrivateFieldGet(this, _parentEl).insertAdjacentHTML('beforeend', markup);
+    });
+  }
+
+}
+
+var _clear2 = function _clear2() {
+  _classPrivateFieldGet(this, _parentEl).innerHTML = '';
+};
+
+var _generateMarkup2 = function _generateMarkup2() {
+  return `
+        <li class="preview">
+            <a class="preview__link preview__link--active" href="#${_classPrivateFieldGet(this, _data).id}">
+            <figure class="preview__fig">
+                <img src="${_classPrivateFieldGet(this, _data).imageUrl}" alt="Test" />
+            </figure>
+            <div class="preview__data">
+                <h4 class="preview__title">${_classPrivateFieldGet(this, _data).title}</h4>
+                <p class="preview__publisher">${_classPrivateFieldGet(this, _data).publisher}/p>
+                <div class="preview__user-generated">
+                <svg>
+                    <use href="${_icons.default}#icon-user"></use>
+                </svg>
+                </div>
+            </div>
+            </a>
+        </li>
+    `;
+};
+
+var _default = new ResultsView();
+
+exports.default = _default;
