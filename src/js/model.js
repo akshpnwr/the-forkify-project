@@ -3,6 +3,7 @@ import { getJSON } from './helpers.js';
 
 export const state = {
   recipe: {},
+  servings: 4,
   search: {
     query: '',
     results: [],
@@ -56,4 +57,15 @@ export const getSearchResultsPerPage = function (page = state.search.page) {
   const end = page * state.search.resultsPerPage;
 
   return state.search.results.slice(start, end);
+};
+
+export const updateServings = function (newServings) {
+  state.recipe.ingredients = state.recipe.ingredients.map(ing => {
+    let newIng = ing.split(' ').slice(0, 1);
+    newIng = (newIng * newServings) / state.servings;
+
+    if (!isNaN(newIng)) ing = `${newIng}${ing.slice(1)}`;
+    return ing;
+  });
+  state.servings = newServings;
 };
