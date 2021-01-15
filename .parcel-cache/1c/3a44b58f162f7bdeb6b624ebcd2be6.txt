@@ -1,4 +1,4 @@
-17491
+17498
 105D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\timsort\build132549123482188603 1
 128D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\uri-js\dist\esnext\schemes\ws.js.map121436361000000000 0
 100D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\mdn-data132549124264911188 1
@@ -35,7 +35,7 @@
 100D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\escalade132549124331916150 1
 107D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\ws\package.json132549124053909313 0
 146D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\regenerate-unicode-properties\Binary_Property\Emoji.js121436361000000000 0
-83D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist132551686028927996 1
+83D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist132551716015110662 1
 106D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\unpipe\LICENSE130787873820000000 0
 151D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\util.promisify\node_modules\es-abstract\2019\ToPrimitive.js121436361000000000 0
 96D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\util132549124067721979 1
@@ -162,7 +162,7 @@
 108D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\svgo\lib\svgo.js121436361000000000 0
 115D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\acorn-walk\CHANGELOG.md121436361000000000 0
 155D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\util.promisify\node_modules\es-abstract\2019\thisStringValue.js121436361000000000 0
-91D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\package.json132549127452411335 0
+91D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\package.json132551715321750272 0
 82D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\src132549120463452405 1
 127D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\webgl.js121436361000000000 0
 127D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\snapdragon\node_modules\ms\index.js131394109200000000 0
@@ -249,7 +249,7 @@
 124D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\symbol\species.js121436361000000000 0
 106D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\braces\LICENSE121436361000000000 0
 100D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\@nodelib132549123985037032 1
-94D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\src\js\model.js132551686022011486 0
+94D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\src\js\model.js132551716004383301 0
 140D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\regenerate-unicode-properties\Script\Ethiopic.js121436361000000000 0
 136D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\@babel\types\lib\definitions\experimental.js121012626000000000 0
 140D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\readable-stream\lib\internal\streams\pipeline.js121436361000000000 0
@@ -396,7 +396,7 @@
 100D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\argparse132549124164365968 1
 132D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-selector-parser\dist\tokenize.js121436361000000000 0
 110D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\is-color-stop\util132549123579466171 1
-96D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\src\js\helpers.js132551637157001552 0
+96D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\src\js\helpers.js132551715689174826 0
 138D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\multibackgrounds.js121436361000000000 0
 112D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\strip-ansi\readme.md121436361000000000 0
 112D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\builtin-status-codes132549124379924828 1
@@ -3967,7 +3967,7 @@
 153D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\util.promisify\node_modules\es-abstract\2018\ToPropertyKey.js121436361000000000 0
 147D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\util.promisify\node_modules\es-abstract\2018\ToUint8.js121436361000000000 0
 109D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\mime\package.json132549124258508655 0
-104D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\favicon.922d8ff9.png132551686028008240 0
+104D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\favicon.922d8ff9.png132551716013591532 0
 120D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\relateurl\lib\util\devlog.js130516774860000000 0
 139D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\transformer-json\node_modules\json5\lib132549123683578396 1
 138D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\regenerate-unicode-properties\Script\Chakma.js121436361000000000 0
@@ -4315,7 +4315,7 @@
 139D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\css-initial-value.js121436361000000000 0
 128D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\dialog.js121436361000000000 0
 133D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\serialize-to-js\src\internal\reference.js121436361000000000 0
-106D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\controller.48835105.js132551686028448533 0
+106D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\controller.48835105.js132551716015020723 0
 148D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\util.promisify\node_modules\es-abstract\2016\MakeDate.js121436361000000000 0
 148D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\util.promisify\node_modules\es-abstract\2016\MakeTime.js121436361000000000 0
 153D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers\helpers.js121436361000000000 0
@@ -5027,6 +5027,7 @@
 105D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\tslib\modules132549123418635874 1
 107D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\tslib\README.md121436361000000000 0
 126D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-normalize-url\package.json132549124147088853 0
+102D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\icons.c781f215.svg132551704555592639 0
 110D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\tslib\tslib.es6.js121436361000000000 0
 107D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\tr46\LICENSE.md131403622080000000 0
 116D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\lodash\fp\isMatchWith.js121436361000000000 0
@@ -7565,7 +7566,7 @@
 115D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\is-plain-object\LICENSE131442863520000000 0
 142D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\node_modules\posthtml-parser\package.json132549124085898003 0
 108D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\lodash\negate.js121436361000000000 0
-102D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\icons.836fa4c4.svg132551686028288146 0
+102D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\icons.836fa4c4.svg132551716013591532 0
 136D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\highlight.js\styles\atelier-forest-light.css131406724530000000 0
 147D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\postcss-modules-values\node_modules\postcss\lib\list.js121436361000000000 0
 139D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\node_modules\posthtml-parser\README.md121436361000000000 0
@@ -9408,6 +9409,7 @@
 150D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\http-proxy-middleware\node_modules\to-regex-range\index.js131373859950000000 0
 115D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\miller-rabin\.npmignore130905372080000000 0
 122D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\watcher\src\Backend.cc121436361000000000 0
+105D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\main.01e4e107.css.map132551704962047265 0
 121D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\minimalistic-assert\readme.md121436361000000000 0
 111D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\mimic-fn\index.d.ts121436361000000000 0
 104D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\hash.js\test132549123734716155 1
@@ -9933,7 +9935,7 @@
 119D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\lodash\_compareAscending.js121436361000000000 0
 111D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\is-callable\.github132549123760305953 1
 118D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\lodash\_compareMultiple.js121436361000000000 0
-105D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\main.eeaff942.css.map132551686028448533 0
+105D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\main.eeaff942.css.map132551716013761446 0
 114D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\lodash\_composeArgs.js121436361000000000 0
 100D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\ajv\dist132549123555334137 1
 113D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\lodash\_copyObject.js121436361000000000 0
@@ -12664,6 +12666,7 @@
 123D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\regions\ST.js121436361000000000 0
 125D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\es-abstract\2017\MonthFromTime.js121436361000000000 0
 122D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\es-abstract\2017\msFromTime.js121436361000000000 0
+106D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\controller.63255294.js132551704961966490 0
 124D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\es-abstract\2017\ObjectCreate.js121436361000000000 0
 137D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\es-abstract\2017\OrdinaryDefineOwnProperty.js121436361000000000 0
 134D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\es-abstract\2017\OrdinaryGetPrototypeOf.js121436361000000000 0
@@ -14293,7 +14296,7 @@
 134D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.composite-symbol.js121436361000000000 0
 143D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.iterator.as-indexed-pairs.js121436361000000000 0
 143D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\fs-write-stream-atomic\test\rename-eperm.js121436361000000000 0
-101D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\main.eeaff942.css132551686028288146 0
+101D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\main.eeaff942.css132551716013611530 0
 138D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.iterator.constructor.js121436361000000000 0
 133D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.iterator.filter.js121436361000000000 0
 132D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\@nodelib\fs.walk\out\index.spec.d.ts.map121436361000000000 0
@@ -15728,7 +15731,7 @@
 136D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\babel-plugin-dynamic-import-node\.travis.yml121436361000000000 0
 133D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\babel-plugin-dynamic-import-node\utils.js121436361000000000 0
 137D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\babel-plugin-dynamic-import-node\lib\index.js121436361000000000 0
-94D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\index.html132551686028488118 0
+94D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\index.html132551716013601527 0
 103D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\aws4\lru.js121436361000000000 0
 106D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\aws4\README.md121436361000000000 0
 110D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\aws-sign2\index.js131364977210000000 0
@@ -17488,5 +17491,9 @@
 105D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\uuid.ps1132549124406051980 0
 102D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\which132549124406141910 0
 106D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\which.cmd132549124406141910 0
-110D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\controller.48835105.js.map132551686028927996 0
-101D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\logo.939449d7.png132551686028128620 0
+110D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\controller.48835105.js.map132551716015090690 0
+110D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\controller.63255294.js.map132551704962047265 0
+104D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\favicon.f1877f87.png132551704555552827 0
+101D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\logo.09084f39.png132551704555712789 0
+101D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\logo.939449d7.png132551716013631511 0
+101D:\akash\JavaScript\udemy\complete-javascript-course-master\18-forkify\starter\dist\main.01e4e107.css132551704961966490 0

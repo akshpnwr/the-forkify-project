@@ -1,8 +1,0 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.API_URL_GET = void 0;
-const API_URL_GET = 'https://forkify-api.herokuapp.com/api/get?rId=';
-exports.API_URL_GET = API_URL_GET;

@@ -1,0 +1,50 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.sendJSON = exports.getJSON = void 0;
+
+var _config = require("./config.js");
+
+var _regeneratorRuntime = require("regenerator-runtime");
+
+const timeout = function (sec) {
+  return new Promise(function (_, reject) {
+    setTimeout(() => {
+      reject(new Error('Request timed out ! 💥💥💥💥'));
+    }, sec * 1000);
+  });
+};
+
+const getJSON = async function (url) {
+  try {
+    const res = await Promise.race([fetch(url), timeout(_config.TIMEOUT_SEC)]);
+    const data = await res.json();
+    if (!res.ok) throw new Error(`${data.error} ${res.status}`);
+    return data;
+  } catch (err) {
+    throw err;
+  }
+};
+
+exports.getJSON = getJSON;
+
+const sendJSON = async function (url, uploadData) {
+  try {
+    const res = await Promise.race([fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(uploadData)
+    }), timeout(_config.TIMEOUT_SEC)]);
+    const data = await res.json();
+    if (!res.ok) throw new Error(`${data.error} ${res.status}`);
+    return data;
+  } catch (err) {
+    throw err;
+  }
+};
+
+exports.sendJSON = sendJSON;
