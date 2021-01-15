@@ -1,5 +1,5 @@
 import { API_URL_GET, API_URL_SEARCH, RES_PER_PAGE } from './config.js';
-import { getJSON } from './helpers.js';
+import { getJSON, sendJSON } from './helpers.js';
 
 export const state = {
   recipe: {},
@@ -10,6 +10,7 @@ export const state = {
     page: 1,
     resultsPerPage: RES_PER_PAGE,
   },
+  bookmarks: [],
 };
 
 export const loadRecipe = async function (id) {
@@ -26,6 +27,10 @@ export const loadRecipe = async function (id) {
       sourceUrl: recipe.source_url,
       ingredients: recipe.ingredients,
     };
+
+    if (state.bookmarks.some(bookmark => bookmark.id === id))
+      state.recipe.bookmarked = true;
+    else state.recipe.bookmarked = false;
   } catch (err) {
     console.error(`${err} 💥💥💥💥`);
     throw err;
@@ -34,6 +39,7 @@ export const loadRecipe = async function (id) {
 
 export const loadSearchResults = async function (query) {
   try {
+    state.search.page = 1;
     state.search.query = query;
     const data = await getJSON(`${API_URL_SEARCH}${query}`);
 
@@ -69,3 +75,57 @@ export const updateServings = function (newServings) {
   });
   state.servings = newServings;
 };
+
+const persistBookmark = function () {
+  localStorage.setItem('bookmarks', JSON.stringify(state.bookmarks));
+};
+
+export const addBookmark = function (recipe) {
+  state.bookmarks.push(recipe);
+  if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
+
+  persistBookmark();
+};
+
+export const deleteBookmark = function (id) {
+  state.bookmarks.splice(
+    state.bookmarks.findIndex(bookmark => bookmark.id === id),
+    1
+  );
+  if (id === state.recipe.id) state.recipe.bookmarked = false;
+
+  persistBookmark();
+};
+
+export const addRecipeView = async function (newRecipe) {
+  try {
+    const ingredients = Object.entries(newRecipe)
+      .filter(ing => ing[0].startsWith('ingredient') && ing[1])
+      .map(ing => {
+        const ingArr = ing[1].split(',');
+
+        if (ingArr.length < 3)
+          throw new Error('Wrong input format! Please use correct format.');
+
+        const [quantity, unit, description] = ingArr;
+
+        return { quantity: quantity ? +quantity : null, unit, description };
+      });
+
+    const recipe = {
+      title: newRecipe.title,
+      publisher: newRecipe.publisher,
+      image_url: newRecipe.image,
+      source_url: newRecipe.sourceUrl,
+      ingredients,
+    };
+  } catch (err) {
+    throw err;
+  }
+};
+const init = function () {
+  const storedBookmarks = JSON.parse(localStorage.getItem('bookmarks'));
+  if (storedBookmarks) state.bookmarks = storedBookmarks;
+};
+
+init();
